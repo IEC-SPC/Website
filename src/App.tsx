@@ -3,6 +3,16 @@ import './index.css'
 function App() {
   return (
     <main className='bg-offwhite font-inter h-lvh'>
+      <div className='flex flex-row p-10'>
+        <img src='/iec_logo.png' width={173} height={42} />
+        <div className='w-full' />
+        <div className='flex flex-row gap-10 text-nowrap'>
+          <a href='#'>Home</a>
+          <a href='#'>About IEC</a>
+          <a href='#'>Gallery</a>
+          <a href='#'>Contact</a>
+        </div>
+      </div>
       <div className='flex flex-col gap-4 py-20'>
         <div className='flex flex-row'>
           <h1 className='mx-8 text-8xl text-blue font-extrabold'>THINK</h1>
