@@ -5,5 +5,5 @@
 Execute the following command in your terminal:
 
 ```bash
-bun dev
+bun run dev
 ```
