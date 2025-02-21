@@ -3,7 +3,7 @@ import './index.css'
 function App() {
   return (
     <main className='bg-offwhite font-inter h-lvh'>
-      <section className='flex flex-row p-10'>
+      <section className='fixed w-full flex flex-row p-10'>
         <img src='/iec_logo.png' width={173} height={42} />
         <div className='w-full' />
         <div className='flex flex-row gap-10 text-nowrap'>
@@ -14,7 +14,7 @@ function App() {
         </div>
       </section>
 
-      <section className='flex flex-col gap-4 py-20'>
+      <section className='flex flex-col gap-4 pt-52 pb-20'>
         <div className='flex flex-row'>
           <h1 className='mx-8 text-8xl text-blue font-extrabold'>THINK</h1>
           <div className='w-full bg-gold' />
