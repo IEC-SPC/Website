@@ -1,4 +1,5 @@
 import './index.css'
+import Message from './Message.tsx'
 
 function App() {
   return (
@@ -26,12 +27,17 @@ function App() {
         <div className='flex flex-row'>
           <div className='w-1/6 bg-gold' />
           <h1 className='mx-8 text-8xl text-blue font-extrabold'>INNOVATE</h1>
-          <div className='w-full bg-gold' />  
+          <div className='w-full bg-gold' />
         </div>
       </section>
-      
       <section className='py-6 px-10'>
         <p className='text-2xl font-normal'>LOREM IPSUM ODOR AMET, CONSECTETUER ADIPISCING ELIT. ULTRICES LOBORTIS SUSCIPIT SUSPENDISSE NISL ETIAM CURABITUR. CONSEQUAT CONSEQUAT PROIN ELEMENTUM PORTTITOR NON. COMMODO LIBERO TORTOR EU IPSUM VARIUS ULTRICIES VARIUS AD CURAE. SOCIOSQU TEMPOR CONDIMENTUM IACULIS; FINIBUS NASCETUR PULVINAR ENIM SODALES.</p>
+      </section>
+      <section className='flex min-h-screen py-10 bg-offwhite'>
+        <div className='flex flex-col gap-5 items-center justify-center'>
+          <Message title='OUR VISION' message='Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, dicta molestias. Et eos amet exercitationem eligendi blanditiis sapiente dolores similique aliquam ipsa optio in officiis alias fugit tenetur, quasi excepturi!' />
+          <Message title='OUR MISSION' message='Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, dicta molestias. Et eos amet exercitationem eligendi blanditiis sapiente dolores similique aliquam ipsa optio in officiis alias fugit tenetur, quasi excepturi!' />
+        </div>
       </section>
     </main>
   )
