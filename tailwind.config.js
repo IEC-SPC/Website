@@ -8,7 +8,9 @@ export default {
     colors: {
       'blue': '#102542',
       'offwhite': '#f4f1e6',
-      'gold': '#bf8812'
+      'gold': '#bf8812',
+      'black': '#000000',
+      'white': '#ffffff'
     },
     fontFamily: {
       'inter': ['Inter']
