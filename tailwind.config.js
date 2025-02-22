@@ -4,7 +4,11 @@ import daisyui from 'daisyui'
 export default {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'bg-img': "url('/background.jpg')"
+      }
+    },
     colors: {
       'blue': '#102542',
       'offwhite': '#f4f1e6',
