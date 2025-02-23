@@ -1,5 +1,6 @@
 import './index.css'
 import Message from './comp/Message.tsx'
+import { HorizontalScroll } from './comp/marquee.tsx'
 
 function App() {
   return (
@@ -30,15 +31,19 @@ function App() {
           <div className='w-full bg-gold' />
         </div>
       </section>
+
       <section className='py-6 px-10'>
         <p className='text-2xl font-normal'>LOREM IPSUM ODOR AMET, CONSECTETUER ADIPISCING ELIT. ULTRICES LOBORTIS SUSCIPIT SUSPENDISSE NISL ETIAM CURABITUR. CONSEQUAT CONSEQUAT PROIN ELEMENTUM PORTTITOR NON. COMMODO LIBERO TORTOR EU IPSUM VARIUS ULTRICIES VARIUS AD CURAE. SOCIOSQU TEMPOR CONDIMENTUM IACULIS; FINIBUS NASCETUR PULVINAR ENIM SODALES.</p>
       </section>
+
       <section className='flex justify-center py-10'>
         <div className='flex flex-col gap-5 items-center justify-center'>
           <Message title='OUR VISION' message='To inspire life of students to revolutionize the world through new innovative ideas, therefore a brighter future' />
           <Message title='OUR MISSION' message='To develop innovative ideas or innovations through well- organized projects and implement them successfully to the world.' />
         </div>
       </section>
+
+      <HorizontalScroll />
     </main>
   )
 }
