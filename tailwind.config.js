@@ -7,14 +7,12 @@ export default {
     extend: {
       backgroundImage: {
         'bg-img': "url('/background.jpg')"
-      }
-    },
-    colors: {
-      'blue': '#102542',
-      'offwhite': '#f4f1e6',
-      'gold': '#bf8812',
-      'black': '#000000',
-      'white': '#ffffff'
+      },
+      colors: {
+        'blue': '#102542',
+        'offwhite': '#f4f1e6',
+        'gold': '#bf8812'
+      },
     },
     fontFamily: {
       'inter': ['Inter']

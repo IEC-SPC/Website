@@ -4,7 +4,7 @@ function Message(props: { title: string, message: string }) {
       <div className="absolute inset-0 bg-blue/[0.7] rounded-[50px]"></div>
       
       <h2 className='relative z-10 text-4xl font-bold text-white pt-10'>{props.title}</h2>
-      <p className='relative z-10 text-xl font-normal text-white pb-20'>{props.message}</p>
+      <p className='relative z-10 text-xl font-normal text-gray-300 pb-20'>{props.message}</p>
     </div>
   )
 }
