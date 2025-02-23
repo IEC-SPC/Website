@@ -3,6 +3,7 @@ import Message from './comp/Message.tsx'
 import Separator from './comp/separator.tsx'
 import { HorizontalScroll } from './comp/marquee.tsx'
 import Competition from './comp/competition.tsx'
+import Form from './comp/form.tsx'
 
 function App() {
   return (
@@ -68,6 +69,7 @@ function App() {
 
       <section className='flex flex-col py-32 justify-center items-center'>
         <h1 className='text-6xl text-blue font-bold'>REACH OUT TO US</h1>
+        <Form/>
       </section>
     </main>
   )
