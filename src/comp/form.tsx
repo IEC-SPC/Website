@@ -27,14 +27,16 @@ const Form: React.FC = () => {
     };
 
     return (
-        <div className="flex flex-col m">
-            <form onSubmit={onSubmit}>
+        <div className="flex flex-col w-[65%] items-center">
+            <form className="flex flex-col w-full gap-4" onSubmit={onSubmit}>
                 <div className="flex gap-4">
-                    <input type="text" name="name" placeholder="NAME" className='bg-[#D99D9] rounded-2xl' required />
-                    <input type="email" name="email" placeholder="EMAIL" className='bg-[#D9D9D9]' required />
+                    <input type="text" name="name" placeholder="NAME" className='input rounded-2xl bg-[#d9d9d9] placeholder:text-black w-[40%]' required />
+                    <input type="email" name="email" placeholder="EMAIL" className='input rounded-2xl bg-[#d9d9d9] placeholder:text-black w-full' required />
                 </div>
-                <textarea name="message" className='bg-[#D9D9D9]' required></textarea>
-                <button type="submit">Submit Form</button>
+                <textarea name="message" placeholder="MESSAGE" className='textarea rounded-2xl h-44 placeholder:text-black bg-[#d9d9d9]' required></textarea>
+                <div className="flex flex-col items-center">
+                    <button type="submit" className="btn w-44 bg-[#d9d9d9] rounded-2xl">SEND MESSAGE</button>
+                </div>
             </form>
             <span>{result}</span>
         </div>

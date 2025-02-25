@@ -11,7 +11,8 @@ export default {
       colors: {
         'blue': '#102542',
         'offwhite': '#f4f1e6',
-        'gold': '#bf8812'
+        'gold': '#bf8812',
+        'lightblue': '#193760'
       },
     },
     fontFamily: {

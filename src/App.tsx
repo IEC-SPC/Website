@@ -5,9 +5,11 @@ import { HorizontalScroll } from './comp/marquee.tsx'
 import Competition from './comp/competition.tsx'
 import Form from './comp/form.tsx'
 
+import { Instagram, Phone, Mail, MessageCircle } from 'lucide-react'
+
 function App() {
   return (
-    <main className='bg-offwhite font-inter h-full'>
+    <main className='bg-offwhite font-inter w-full h-full'>
       <section className='fixed w-full bg-white flex flex-row items-center p-6 z-20'>
         <img src='/iec_logo.jpg' width={173} height={42} />
         <div className='w-full' />
@@ -54,9 +56,9 @@ function App() {
 
       <section className='flex flex-col w-[80%] my-0 mx-auto py-32 justify-center items-center'>
         <h1 className='text-xl text-blue'>GALLERY</h1>
-        <h1 className='text-6xl text-blue font-bold'>WHAT WE HAVE BEEN DOING</h1>
+        <h1 className='text-6xl text-blue font-bold text-center'>WHAT WE HAVE BEEN DOING</h1>
 
-        <div className='flex flex-row py-10 justify-between w-full'>
+        <div className='flex flex-row flex-wrap gap-4 justify-center py-10 justify-between w-full'>
           <Competition title='Competition #1' location='@ Location' date='DD/MM/YYYY' />
           <Competition title='Competition #2' location='@ Location' date='DD/MM/YYYY' />
           <Competition title='Competition #3' location='@ Location' date='DD/MM/YYYY' />
@@ -67,9 +69,23 @@ function App() {
 
       <Separator />
 
-      <section className='flex flex-col py-32 justify-center items-center'>
-        <h1 className='text-6xl text-blue font-bold'>REACH OUT TO US</h1>
+      <section className='flex flex-col gap-8 py-32 justify-center items-center'>
+        <h1 className='text-5xl text-blue font-extrabold'>REACH OUT TO US</h1>
         <Form/>
+      </section>
+
+      <section className='overflow-hidden bg-blue h-full flex flex-col items-center'>
+        <div className='flex flex-col gap-2 text-white items-center justify-center pt-12'> 
+          <a href='#' className='underline'>Follow Us</a>
+          <div className='flex gap-2'>
+            <a href='#'><Instagram /></a>
+            <a href='#'><MessageCircle /></a>
+            <a href='#'><Mail /></a>
+            <a href='#'><Phone /></a>
+          </div>
+          <span className='text-white text-xs'>©️ Innovation and Entrepreneurship Club of St. Peter&apos;s College Colombo 04 2025</span>
+        </div>
+        <h1 className='text-[12rem] text-lightblue font-extrabold translate-y-24'>#IECSPC</h1>
       </section>
     </main>
   )
