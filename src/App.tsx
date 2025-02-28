@@ -21,7 +21,7 @@ function App() {
         </div>
       </section>
 
-      <section className='flex flex-col gap-4 pt-52 pb-20'>
+      <section className='flex flex-col gap-4 pt-52 pb-32'>
         <div className='flex flex-row'>
           <h1 className='mx-8 text-8xl text-blue font-extrabold'>THINK</h1>
           <div className='w-full bg-gold' />
@@ -38,7 +38,9 @@ function App() {
       </section>
 
       <section className='py-6 px-10'>
+        {/*
         <p className='text-2xl font-normal'>LOREM IPSUM ODOR AMET, CONSECTETUER ADIPISCING ELIT. ULTRICES LOBORTIS SUSCIPIT SUSPENDISSE NISL ETIAM CURABITUR. CONSEQUAT CONSEQUAT PROIN ELEMENTUM PORTTITOR NON. COMMODO LIBERO TORTOR EU IPSUM VARIUS ULTRICIES VARIUS AD CURAE. SOCIOSQU TEMPOR CONDIMENTUM IACULIS; FINIBUS NASCETUR PULVINAR ENIM SODALES.</p>
+        */}
       </section>
 
       <section className='flex justify-center pt-10 pb-32'>
@@ -76,12 +78,12 @@ function App() {
 
       <section className='overflow-hidden bg-blue h-full flex flex-col items-center'>
         <div className='flex flex-col gap-2 text-white items-center justify-center pt-12'> 
-          <a href='#' className='underline'>Follow Us</a>
+          <span className='underline'>Follow Us</span>
           <div className='flex gap-2'>
-            <a href='#'><Instagram /></a>
+            <a href='https://www.instagram.com/iec_spc/'><Instagram /></a>
             <a href='#'><MessageCircle /></a>
-            <a href='#'><Mail /></a>
-            <a href='#'><Phone /></a>
+            <a href='mailto:iecspc24@gmail.com'><Mail /></a>
+            <a href='tel:94777672699'><Phone /></a>
           </div>
           <span className='text-white text-xs'>©️ Innovation and Entrepreneurship Club of St. Peter&apos;s College Colombo 04 2025</span>
         </div>
